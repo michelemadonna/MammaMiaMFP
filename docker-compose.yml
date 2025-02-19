@@ -3,5 +3,7 @@ services:
   mammamia:
     build: .  # Specifica la cartella contenente il Dockerfile
     container_name: mammamia
+    environment:
+      - 'PROXY=["http://nzpcnqab-rotate:jcue99rwxaau@p.webshare.io:80"]'
     ports:
       - "8080:18080"
