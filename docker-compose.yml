@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  mammamia:
+    build: .  # Specifica la cartella contenente il Dockerfile
+    container_name: mammamia
+    ports:
+      - "8080:18080"
